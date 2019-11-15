@@ -1,0 +1,102 @@
+.show-product {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    border-top: 4px solid black;
+}
+
+.item-wrapper {
+    background-color: white;
+    width: 60em;
+    justify-content: center;
+    align-items: center;
+    height: 55em;
+    font-family: 'Quicksand', sans-serif;
+    margin-left:10em;
+}
+
+.similar-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.similar-product {
+    height: 30em;
+    width: 20em;
+    font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: .5em;
+    padding: 1em;
+    background-color: white;
+    transition: transform 300ms bounce;
+}
+
+#product-name {
+    padding: 1em 0 0;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    margin: .5em 0;
+}
+
+
+#product-description {
+    font-size: .8em;
+    font-family: 'Lato', sans-serif;
+    color: grey;
+    font-weight: normal;
+    margin: 0;
+    padding: 1em 0 0;
+
+}
+
+#product-price {
+    font-size: 1em;
+    margin: 0;
+    padding: 1em 0 0;
+
+}
+
+#add-icon {
+    padding: 1em 0 0;
+}
+
+.show-product .product-image {
+    height: 35em;
+    margin-left: 6em;
+}
+
+.item-name #product-name {
+    font-size: 30px;
+    border: none;
+    margin-left:4em;
+
+}
+
+.item-name #product-description {
+    font-size: 20px;
+
+}
+
+.item-name #product-price {
+    font-size: 20px;
+    color: grey;
+
+}
+
+.stars {
+    display: flex;
+    margin-left: 8em;
+}
+
+.product-bio {
+    margin-left:8em;
+}
+
+h5 {
+    margin-left:20em;
+}
