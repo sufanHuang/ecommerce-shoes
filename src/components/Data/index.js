@@ -88,17 +88,6 @@ const products = [
         category: "shoes"
     },
     {
-        id: 9,
-        name: "Nike Run Swift lightweight",
-        description: "Running Shoes for Men",
-        price: 40.99,
-        gender: "men",
-        type: "shoes",
-        img: "https://i.ibb.co/85shQ1f/img9.jpg",
-        inCart: false,
-        category: "shoes"
-    },
-    {
         id: 10,
         name: "Nike Flex RN",
         description: "Running Shoes for Men",
